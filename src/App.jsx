@@ -8,8 +8,8 @@ function App() {
           <h1>Junior Full Stack Developer</h1>
 
           <p>
-            I build simple, practical web pps using React, JavaScript, Node, and
-            Express.
+            I build simple, practical web apps using React, JavaScript, Node,
+            and Express.
           </p>
         </section>
 
@@ -39,14 +39,22 @@ function App() {
           <h3>FilmRanker</h3>
           <p>Moive ranking app with authentication and CRUD features.</p>
 
+          <h3>Sip n' Shred</h3>
+          <p>
+            Winter sport and apres-ski application using real APIs and future AI
+            features.
+          </p>
+
           <h3>PixelPal</h3>
-          <p>Digital pet applications built as a team project.</p>
+          <p>
+            Team built digital pet applications built using react and backend
+            APIs.
+          </p>
 
           <h3>Todo List</h3>
-          <p>Simple app showing React skills.</p>
-
-          <h3>Sip n' Shred</h3>
-          <p>Current project in development</p>
+          <p>
+            Simple React application for managing and practicing funaamentals.
+          </p>
         </section>
 
         <section>
