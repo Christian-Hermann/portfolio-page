@@ -68,3 +68,38 @@ section:last-child {
 h2 {
   font-size: 2rem;
 }
+
+/* SKILLS */
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills p {
+  border: 1px solid #444;
+  padding: 10px 15px;
+}
+
+/* PROJECTS */
+
+.projects {
+  padding: 60px 0;
+}
+
+.project {
+  background-color: #2a2a2a;
+
+  padding: 25px;
+
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+}
+
+.project h3 {
+  color: #7bb7ff;
+
+  margin-bottom: 10px;
+}
