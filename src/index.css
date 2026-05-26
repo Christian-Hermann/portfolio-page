@@ -37,3 +37,34 @@ h3 {
 p {
   line-height: 1.6;
 }
+
+/* INTRO */
+
+.intro {
+  min-height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  color: #7bb7ff;
+  margin-bottom: 10px;
+}
+
+.description {
+  max-width: 600px;
+}
+
+section {
+  border-bottom: 1px solid #333;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+h2 {
+  font-size: 2rem;
+}

@@ -2,12 +2,12 @@ function App() {
   return (
     <>
       <main>
-        <section>
-          <p>Hi, my name is Christian.</p>
+        <section className="intro">
+          <p className="name">Hi, my name is Christian Hermann.</p>
 
           <h1>Junior Full Stack Developer</h1>
 
-          <p>
+          <p className="description">
             I build simple, practical web apps using React, JavaScript, Node,
             and Express.
           </p>
