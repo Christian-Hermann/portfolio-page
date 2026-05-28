@@ -34,6 +34,35 @@ function App() {
           </p>
         </section>
 
+        <section className="education">
+          <h2>Education & Certifications</h2>
+
+          <h3>Operation Spark</h3>
+          <p>
+            JavaScript and software development bootcamp focused on programming
+            fundamentals, problem solving, and web development basics.
+          </p>
+
+          <h3>Fullstack Academy x LSU</h3>
+
+          <p>
+            Immersive fullstack software engineering program focused in
+            javaScript, React, Node.js, Express, PostgreSQL, APIs, Git, and
+            fullstack web development.
+          </p>
+
+          <h3>Codecademy Certifications</h3>
+
+          <ul>
+            <li>Learn React</li>
+            <li>Learn React Router v6</li>
+            <li>Learn Node.js</li>
+            <li>Learn Express</li>
+            <li>User Authentication & Authorization in Express</li>
+            <li>Learn Intermediate JavaScript</li>
+          </ul>
+        </section>
+
         <section>
           <h2>Skills</h2>
 

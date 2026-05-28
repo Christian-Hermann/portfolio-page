@@ -71,12 +71,30 @@ h2 {
 
 /* ABOUT */
 
-.about {
-  padding: 60px 0;
-}
-
 .about p {
   margin-bottom: 20px;
+}
+
+/* EDUCATION */
+
+.education h3 {
+  color: #7bb7ff;
+
+  margin-top: 30px;
+
+  margin-bottom: 10px;
+}
+
+.education p {
+  margin-bottom: 15px;
+}
+
+.education ul {
+  margin-left: 20px;
+}
+
+.education li {
+  margin-bottom: 10px;
 }
 
 /* SKILLS */
@@ -93,10 +111,6 @@ h2 {
 }
 
 /* PROJECTS */
-
-.projects {
-  padding: 60px 0;
-}
 
 .project {
   background-color: #2a2a2a;
@@ -115,10 +129,6 @@ h2 {
 }
 
 /* CONTACT */
-
-.contact {
-  padding: 60px 0;
-}
 
 .contact p {
   margin-bottom: 15px;
