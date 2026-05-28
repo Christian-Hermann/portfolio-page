@@ -5,7 +5,7 @@ function App() {
         <section className="intro">
           <p className="name">Hi, my name is Christian Hermann.</p>
 
-          <h1>Junior Full Stack Developer</h1>
+          <h1>Junior Full-Stack Developer</h1>
 
           <p className="description">
             I build simple, practical web apps using React, JavaScript, Node,
@@ -13,13 +13,24 @@ function App() {
           </p>
         </section>
 
-        <section>
-          <h2>About</h2>
+        <section className="about">
+          <h2>About Me</h2>
 
           <p>
-            I recently completed a full-stack coding bootcamp and have been
-            continuing to build projects and strengthen my skills with React,
-            Express, and backend development.
+            I’m a junior developer transitioning from the hospitality industry
+            into software engineering after completing Fullstack Academy’s
+            coding bootcamp.
+          </p>
+
+          <p>
+            I enjoy building fullstack applications with React, JavaScript,
+            Express, and PostgreSQL while continuing to strengthen my frontend
+            and backend skills through personal projects.
+          </p>
+          <p>
+            Currently focused on improving my portfolio, learning modern web
+            development practices, and preparing for junior developer
+            opportunities.
           </p>
         </section>
 
@@ -41,23 +52,14 @@ function App() {
           <div className="project">
             <h3>FilmRanker</h3>
 
-            <p>Moive ranking app with authentication and CRUD features.</p>
-          </div>
-
-          <div className="project">
-            <h3>Sip n' Shred</h3>
-
-            <p>
-              Winter sport and apres-ski application using real APIs and future
-              AI features.
-            </p>
+            <p>Movie ranking app with authentication and CRUD features.</p>
           </div>
 
           <div className="project">
             <h3>PixelPal</h3>
 
             <p>
-              Team built digital pet applications built using react and backend
+              Team-built digital pet applications built using React and backend
               APIs.
             </p>
           </div>
@@ -66,13 +68,24 @@ function App() {
             <h3>Todo List</h3>
 
             <p>
-              Simple React application for managing and practicing funaamentals.
+              Simple React application for managing and practicing fundamentals.
+            </p>
+          </div>
+
+          <div className="project">
+            <h3>Sip n' Shred</h3>
+
+            <p>
+              Planned winter sport and apres-ski app using APIs and weather
+              data.
             </p>
           </div>
         </section>
 
-        <section>
+        <section className="contact">
           <h2>Contact</h2>
+
+          <p>Email: christianhermann.dev@gmail.com</p>
           <p>GitHub</p>
           <p>LinkedIn</p>
           <p>Email</p>

@@ -69,6 +69,16 @@ h2 {
   font-size: 2rem;
 }
 
+/* ABOUT */
+
+.about {
+  padding: 60px 0;
+}
+
+.about p {
+  margin-bottom: 20px;
+}
+
 /* SKILLS */
 
 .skills {
