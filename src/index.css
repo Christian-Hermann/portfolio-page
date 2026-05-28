@@ -113,3 +113,23 @@ h2 {
 
   margin-bottom: 10px;
 }
+
+/* CONTACT */
+
+.contact {
+  padding: 60px 0;
+}
+
+.contact p {
+  margin-bottom: 15px;
+}
+
+.contact a {
+  color: #7bb7ff;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}

@@ -85,10 +85,27 @@ function App() {
         <section className="contact">
           <h2>Contact</h2>
 
-          <p>Email: christianhermann.dev@gmail.com</p>
-          <p>GitHub</p>
-          <p>LinkedIn</p>
-          <p>Email</p>
+          <p>
+            Email:
+            <a href="mailto:christianhermann.dev@gmail.com">
+              christianhermann.dev@gmail.com
+            </a>
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/Christian-Hermann" target="_blank">
+              github.com/Christian-Hermann
+            </a>
+          </p>
+          <p>
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/christianhermanndev/"
+              target="_blank"
+            >
+              linkedin.com/in/christianhermanndev
+            </a>
+          </p>
         </section>
       </main>
     </>
