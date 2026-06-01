@@ -72,6 +72,12 @@ function App() {
             <p>Node</p>
             <p>Express</p>
             <p>PostgreSQL</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Git</p>
+            <p>GitHub</p>
+            <p>REST APIs</p>
+            <p>JWT Authentication</p>
           </div>
         </section>
 
@@ -81,7 +87,11 @@ function App() {
           <div className="project">
             <h3>FilmRanker</h3>
 
-            <p>Movie ranking app with authentication and CRUD features.</p>
+            <p>
+              Fullstack movie ranking application built with React, Express, and
+              PostgreSQL. Features user authentication, movie management, search
+              functionality, and CRUD operations.
+            </p>
 
             <div className="project-links">
               <a
@@ -101,8 +111,9 @@ function App() {
             <h3>PixelPal</h3>
 
             <p>
-              Team-built digital pet applications built using React and backend
-              APIs.
+              Team-built digital pet application created during Fullstack
+              Academy. Features pet status tracking, interactive gameplay
+              elements, and frontend integration with backend APIs.
             </p>
             <div className="project-links">
               <a href="https://github.com/zeplin-rowe/PixelPal" target="_blank">
@@ -119,7 +130,9 @@ function App() {
             <h3>Todo List</h3>
 
             <p>
-              Simple React application for managing and practicing fundamentals.
+              Task management application built with React. Created to practice
+              component structure, state management, event handling, and core
+              frontend development concepts.
             </p>
             <div className="project-links">
               <a
@@ -142,8 +155,9 @@ function App() {
             <h3>Sip n' Shred</h3>
 
             <p>
-              Planned winter sport and apres-ski app using APIs and weather
-              data.
+              Personal fullstack application currently in development. Planned
+              features include ski conditions, resort information, après-ski
+              nightlife, food recommendations, and trip planning.
             </p>
             <p className="coming-soon">Currently in Development</p>
           </div>
