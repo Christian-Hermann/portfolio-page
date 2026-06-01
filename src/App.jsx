@@ -15,22 +15,25 @@ function App() {
 
         <section className="about">
           <h2>About Me</h2>
-
           <p>
-            I’m a junior developer transitioning from the hospitality industry
-            into software engineering after completing Fullstack Academy’s
-            coding bootcamp.
+            I’m a junior full-stack developer transitioning into software
+            engineering after more than a decade working in the hospitality
+            industry. I discovered a passion for programming through Operation
+            Spark and continued my education through Fullstack Academy's
+            immersive software engineering program.
           </p>
 
           <p>
-            I enjoy building fullstack applications with React, JavaScript,
-            Express, and PostgreSQL while continuing to strengthen my frontend
-            and backend skills through personal projects.
+            I enjoy building practical web applications using JavaScript, React,
+            Node.js, Express, and PostgreSQL. My projects focus on creating
+            useful, user-friendly experiences while continuing to strengthen
+            both frontend and backend development skills.
           </p>
+
           <p>
-            Currently focused on improving my portfolio, learning modern web
-            development practices, and preparing for junior developer
-            opportunities.
+            I am currently expanding my knowledge through personal projects and
+            continued coursework, with a focus on full-stack development, APIs,
+            authentication, and modern web technologies.
           </p>
         </section>
 
@@ -104,6 +107,10 @@ function App() {
               <a href="https://filmranker-2025.netlify.app/" target="_blank">
                 Live Demo
               </a>
+              <p className="project-note">
+                Note: The backend may take a few seconds to wake up after
+                periods of inactivity.
+              </p>
             </div>
           </div>
 

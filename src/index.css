@@ -143,10 +143,12 @@ section:last-child {
   color: #1e1e1e;
 }
 
+.project-note,
 .coming-soon {
   color: #aaa;
   margin-top: 15px;
   font-style: italic;
+  font-size: 0.9rem;
 }
 /* CONTACT */
 
