@@ -128,6 +128,30 @@ h2 {
   margin-bottom: 10px;
 }
 
+.project-links {
+  margin-top: 15px;
+}
+
+.project-links a {
+  display: inline-block;
+  color: #7bb7ff;
+  border: 1px solid #7bb7ff;
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  background-color: #7bb7ff;
+  color: #1e1e1e;
+}
+
+.coming-soon {
+  color: #aaa;
+  margin-top: 15px;
+  font-style: italic;
+}
 /* CONTACT */
 
 .contact p {

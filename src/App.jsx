@@ -82,6 +82,19 @@ function App() {
             <h3>FilmRanker</h3>
 
             <p>Movie ranking app with authentication and CRUD features.</p>
+
+            <div className="project-links">
+              <a
+                href="https://github.com/Christian-Hermann/FilmRanker"
+                target="_blank"
+              >
+                GitHub
+              </a>
+
+              <a href="https://filmranker-2025.netlify.app/" target="_blank">
+                Live Demo
+              </a>
+            </div>
           </div>
 
           <div className="project">
@@ -91,6 +104,15 @@ function App() {
               Team-built digital pet applications built using React and backend
               APIs.
             </p>
+            <div className="project-links">
+              <a href="https://github.com/zeplin-rowe/PixelPal" target="_blank">
+                GitHub
+              </a>
+
+              <a href="https://thepixelpal.netlify.app/" target="_blank">
+                Live Demo
+              </a>
+            </div>
           </div>
 
           <div className="project">
@@ -99,6 +121,21 @@ function App() {
             <p>
               Simple React application for managing and practicing fundamentals.
             </p>
+            <div className="project-links">
+              <a
+                href="https://github.com/Christian-Hermann/todo-react"
+                target="_blank"
+              >
+                GitHub
+              </a>
+
+              <a
+                href="https://christian-todo-react.onrender.com/"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
           </div>
 
           <div className="project">
