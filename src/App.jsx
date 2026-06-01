@@ -145,6 +145,7 @@ function App() {
               Planned winter sport and apres-ski app using APIs and weather
               data.
             </p>
+            <p className="coming-soon">Currently in Development</p>
           </div>
         </section>
 

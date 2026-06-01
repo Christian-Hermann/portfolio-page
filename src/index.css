@@ -18,6 +18,7 @@ main {
 
 section {
   padding: 60px 0;
+  border-bottom: 1px solid #333;
 }
 
 h1 {
@@ -26,6 +27,7 @@ h1 {
 }
 
 h2 {
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 
@@ -57,16 +59,8 @@ p {
   max-width: 600px;
 }
 
-section {
-  border-bottom: 1px solid #333;
-}
-
 section:last-child {
   border-bottom: none;
-}
-
-h2 {
-  font-size: 2rem;
 }
 
 /* ABOUT */
@@ -114,12 +108,14 @@ h2 {
 
 .project {
   background-color: #2a2a2a;
-
   padding: 25px;
-
   margin-bottom: 20px;
-
   border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-3px);
 }
 
 .project h3 {
