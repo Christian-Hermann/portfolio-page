@@ -8,7 +8,7 @@ function App() {
           <h1>Junior Full-Stack Developer</h1>
 
           <p className="description">
-            I build simple, practical web apps using React, JavaScript, Node,
+            I build simple, practical web apps using React, JavaScript, Node.js,
             and Express.
           </p>
         </section>
@@ -43,6 +43,9 @@ function App() {
           <h3>Illinois Institute of Art - Chicago</h3>
           <p>Bachelor of Science in Advertising</p>
 
+          <h3>Northwestern University</h3>
+          <p>Post-Baccalaureate Certificate in Finance</p>
+
           <h3>Operation Spark</h3>
           <p>
             JavaScript and software development bootcamp focused on programming
@@ -52,16 +55,12 @@ function App() {
           <h3>Fullstack Academy x LSU</h3>
 
           <p>
-            <p>
-              Full-stack software engineering program focused on JavaScript,
-              React, Node.js, Express, PostgreSQL, APIs, Git, and web
-              application development.
-            </p>
+            Full-stack software engineering program focused on JavaScript,
+            React, Node.js, Express, PostgreSQL, APIs, Git, and web application
+            development.
           </p>
 
-          <h3>
-            <h3>Additional Coursework</h3>
-          </h3>
+          <h3>Additional Coursework</h3>
 
           <ul>
             <li>Learn React</li>
@@ -69,7 +68,7 @@ function App() {
             <li>Learn Node.js</li>
             <li>Learn Express</li>
             <li>User Authentication & Authorization in Express</li>
-            <li>Learn Intermediate javaScript</li>
+            <li>Learn Intermediate JavaScript</li>
           </ul>
         </section>
 
@@ -79,7 +78,7 @@ function App() {
           <div className="skills">
             <p>JavaScript</p>
             <p>React</p>
-            <p>Node</p>
+            <p>Node.js</p>
             <p>Express</p>
             <p>PostgreSQL</p>
             <p>HTML</p>
@@ -98,20 +97,25 @@ function App() {
             <h3>FilmRanker</h3>
 
             <p>
-              Fullstack movie ranking application built with React, Express, and
-              PostgreSQL. Features user authentication, movie management, search
-              functionality, and CRUD operations.
+              Full-stack movie ranking application built with React, Express,
+              and PostgreSQL. Features user authentication, movie management,
+              search functionality, and CRUD operations.
             </p>
 
             <div className="project-links">
               <a
                 href="https://github.com/Christian-Hermann/FilmRanker"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
 
-              <a href="https://filmranker-2025.netlify.app/" target="_blank">
+              <a
+                href="https://filmranker-2025.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live Demo
               </a>
               <p className="project-note">
@@ -133,13 +137,18 @@ function App() {
 
             <div className="project-links">
               <a
-                href="https://github.com/Christian-Hermann/portfolio-page"
+                href="https://github.com/Christian-Hermann/mini-movie-notes"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
 
-              <a href="https://mini-movie-notes.netlify.app/" target="_blank">
+              <a
+                href="https://mini-movie-notes.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live Demo
               </a>
               <p className="project-note">
@@ -161,6 +170,7 @@ function App() {
               <a
                 href="https://github.com/Christian-Hermann/todo-react"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
@@ -168,6 +178,7 @@ function App() {
               <a
                 href="https://christian-todo-react.onrender.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Live Demo
               </a>
@@ -183,11 +194,19 @@ function App() {
               elements, and frontend integration with backend APIs.
             </p>
             <div className="project-links">
-              <a href="https://github.com/zeplin-rowe/PixelPal" target="_blank">
+              <a
+                href="https://github.com/zeplin-rowe/PixelPal"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 GitHub
               </a>
 
-              <a href="https://thepixelpal.netlify.app/" target="_blank">
+              <a
+                href="https://thepixelpal.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live Demo
               </a>
             </div>
@@ -197,7 +216,7 @@ function App() {
             <h3>Sip n' Shred</h3>
 
             <p>
-              Personal fullstack application currently in development. Planned
+              Personal full-stack application currently in development. Planned
               features include ski conditions, resort information, après-ski
               nightlife, food recommendations, and trip planning.
             </p>
@@ -216,7 +235,11 @@ function App() {
           </p>
           <p>
             GitHub:
-            <a href="https://github.com/Christian-Hermann" target="_blank">
+            <a
+              href="https://github.com/Christian-Hermann"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               github.com/Christian-Hermann
             </a>
           </p>
@@ -225,6 +248,7 @@ function App() {
             <a
               href="https://www.linkedin.com/in/christianhermanndev/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               linkedin.com/in/christianhermanndev
             </a>
