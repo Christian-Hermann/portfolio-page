@@ -38,7 +38,10 @@ function App() {
         </section>
 
         <section className="education">
-          <h2>Education & Certifications</h2>
+          <h2>Education</h2>
+
+          <h3>Illinois Institute of Art - Chicago</h3>
+          <p>Bachelor of Science in Advertising</p>
 
           <h3>Operation Spark</h3>
           <p>
@@ -49,12 +52,16 @@ function App() {
           <h3>Fullstack Academy x LSU</h3>
 
           <p>
-            Immersive fullstack software engineering program focused in
-            javaScript, React, Node.js, Express, PostgreSQL, APIs, Git, and
-            fullstack web development.
+            <p>
+              Full-stack software engineering program focused on JavaScript,
+              React, Node.js, Express, PostgreSQL, APIs, Git, and web
+              application development.
+            </p>
           </p>
 
-          <h3>Codecademy Certifications</h3>
+          <h3>
+            <h3>Additional Coursework</h3>
+          </h3>
 
           <ul>
             <li>Learn React</li>
@@ -62,7 +69,7 @@ function App() {
             <li>Learn Node.js</li>
             <li>Learn Express</li>
             <li>User Authentication & Authorization in Express</li>
-            <li>Learn Intermediate JavaScript</li>
+            <li>Learn Intermediate javaScript</li>
           </ul>
         </section>
 
@@ -115,21 +122,30 @@ function App() {
           </div>
 
           <div className="project">
-            <h3>PixelPal</h3>
+            <h3>Mini Movie Notes</h3>
 
             <p>
-              Team-built digital pet application created during Fullstack
-              Academy. Features pet status tracking, interactive gameplay
-              elements, and frontend integration with backend APIs.
+              A small full-stack CRUD application built with React and Express.
+              Users can create, edit, and delete movie notes. Built as a
+              refresher project to strengthen React, Express, components, props,
+              and API communication skills.
             </p>
+
             <div className="project-links">
-              <a href="https://github.com/zeplin-rowe/PixelPal" target="_blank">
+              <a
+                href="https://github.com/Christian-Hermann/portfolio-page"
+                target="_blank"
+              >
                 GitHub
               </a>
 
-              <a href="https://thepixelpal.netlify.app/" target="_blank">
+              <a href="https://mini-movie-notes.netlify.app/" target="_blank">
                 Live Demo
               </a>
+              <p className="project-note">
+                Note: The backend may take a few seconds to wake up after
+                periods of inactivity.
+              </p>
             </div>
           </div>
 
@@ -153,6 +169,25 @@ function App() {
                 href="https://christian-todo-react.onrender.com/"
                 target="_blank"
               >
+                Live Demo
+              </a>
+            </div>
+          </div>
+
+          <div className="project">
+            <h3>PixelPal</h3>
+
+            <p>
+              Team-built digital pet application created during Fullstack
+              Academy. Features pet status tracking, interactive gameplay
+              elements, and frontend integration with backend APIs.
+            </p>
+            <div className="project-links">
+              <a href="https://github.com/zeplin-rowe/PixelPal" target="_blank">
+                GitHub
+              </a>
+
+              <a href="https://thepixelpal.netlify.app/" target="_blank">
                 Live Demo
               </a>
             </div>
